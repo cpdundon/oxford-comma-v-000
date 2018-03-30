@@ -10,12 +10,8 @@ def oxford_comma(array)
   array << mod
   
   if l_idx == 1
-    mod = array[l_idx]
-    mod = "and " + mod
-    array.pop
-    array << mod
     array.join(" ")
   else
-    array[0]
+    array.join(", ")
   end
 end
