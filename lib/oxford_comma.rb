@@ -6,5 +6,5 @@ def oxford_comma(array)
     array.pop
     array << mod
   end
-  array.to_s(", ")
+  array.to_s
 end
